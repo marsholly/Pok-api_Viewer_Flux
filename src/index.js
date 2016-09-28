@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-
+import '../node_modules/jquery/dist/jquery.min';
 import App from './components/App';
 
 injectTapEventPlugin();
