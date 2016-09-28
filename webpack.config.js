@@ -11,12 +11,6 @@ module.exports = {
     publicPath: '/build/',
     filename: 'bundle.js'
   },
-  plugings: [
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery"
-    })
-  ],
   devtool: 'inline-source-map',
   module: {
     loaders: [
