@@ -13,8 +13,6 @@ const ServerActions = {
       payload: { pokemons }
     })
   }
-
-
 }
 
 export default ServerActions;

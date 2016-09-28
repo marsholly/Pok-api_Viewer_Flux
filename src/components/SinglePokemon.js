@@ -28,6 +28,5 @@ export default class SinglePokemon extends Component {
         <CircularProgress size={1.5} />
       )
     }
-
   }
 };

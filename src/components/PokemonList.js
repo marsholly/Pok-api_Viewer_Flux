@@ -56,6 +56,7 @@ export default class PokemonList extends Component {
     } else {
       rows = <tr></tr>
     }
+
     return (
       <div>
         <table className='table table-striped'>

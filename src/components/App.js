@@ -4,7 +4,6 @@ import ViewPokemon from './ViewPokemon';
 import { MuiThemeProvider } from 'material-ui';
 import '../css/style.css';
 
-
 export default class App extends Component {
   render() {
     return (
