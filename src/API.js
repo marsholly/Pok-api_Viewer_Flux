@@ -1,4 +1,4 @@
-import $ from 'jquery';
+import $ from 'jquery'
 import ServerActions from './actions/ServerActions';
 
 const API = {
