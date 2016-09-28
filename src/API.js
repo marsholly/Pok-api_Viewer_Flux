@@ -11,8 +11,12 @@ const API = {
     $.get('https://pokeapi.co/api/v2/pokemon/', pokemons => {
       ServerActions.receiveAllPokemons(pokemons);
     })
+  },
+  searchGroup(id) {
+    $.get(`https://pokeapi.co/api/v2/pokemon/?offset=${id}`, pokemons => {
+      ServerActions.receiveAllPokemons(pokemons);
+    })
   }
-  
 }
 
 export default API;

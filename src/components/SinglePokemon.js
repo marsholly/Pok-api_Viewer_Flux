@@ -6,13 +6,13 @@ export default class SinglePokemon extends Component {
     let { pokemon } = this.props;
     if(pokemon){
       let { name, weight, height, id, sprites } = pokemon;
-      let { back_default } = sprites;
+      let { front_default } = sprites;
       return (
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-md-4">
               <div className="thumbnail">
-                <img src={back_default} width="400" height='150'/>
+                <img src={front_default} width="400" height='150'/>
                 <div className="caption">
                   <h3>Name: {name}</h3>
                   <h4>id: {id}</h4>

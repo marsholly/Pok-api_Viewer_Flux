@@ -6,6 +6,9 @@ const PokemonActions = {
   },
   searchAll() {
     API.searchAll();
+  },
+  searchGroup(id) {
+    API.searchGroup(id);
   }
 }
 
