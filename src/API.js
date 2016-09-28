@@ -3,7 +3,7 @@ import ServerActions from './actions/ServerActions';
 
 const API = {
   searchOnePokemon(id) {
-    $.get(`http://pokeapi.co/api/v2/pokemon/${id}`, pokemon => {
+    $.get(`http://pokeapi.co/api/v2/pokemon/${id}/`, pokemon => {
       ServerActions.receiveOnePokemon(pokemon);
     })
   },
